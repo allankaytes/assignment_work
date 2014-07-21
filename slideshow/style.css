@@ -1,0 +1,44 @@
+/* Base */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Slideshow */
+.slideshow {
+  width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.slides {
+  position: relative;
+  list-style: none;
+  width: 300%;
+  padding: 0;
+  -webkit-transition: left .2s ease-out;
+}
+
+  .slides li {
+    float: left;
+    width: 500px;
+  }
+
+nav a {
+  color: #C30;
+  text-decoration: none;
+}
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+.prev {
+  float: left;
+}
+
+.next {
+  float: right;
+}

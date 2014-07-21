@@ -1,0 +1,68 @@
+/* Base */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+
+/* Layout */
+.weather {
+  position: relative;
+  width: 320px;
+  height: 568px;
+  background: #09c;
+  margin: 100px auto;
+}
+
+.group {
+  padding: 15px;
+  border-bottom: 1px solid #b1dafa;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Form */
+form {
+  padding: 10px;
+}
+
+form .error {
+  background: #FEE;
+  border: 1px solid red;
+}
+
+/* Now */
+.now {
+  display: none;
+  padding: 40px 0 20px;
+  text-align: center;
+}
+
+  .now h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .now h2 {
+    font-size: 72px;
+  }
+
+/* Today */
+.today header {
+  padding: 15px;
+  text-align: right;
+}
+
+/* Week */
+.week li {
+  padding: 10px 20px;
+  border-bottom: 1px dotted #ccc;
+  list-style-type: none;
+}
+
+.week li span {
+  float: right;
+}
